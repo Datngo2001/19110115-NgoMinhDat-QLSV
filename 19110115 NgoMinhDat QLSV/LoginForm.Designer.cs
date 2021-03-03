@@ -29,6 +29,7 @@ namespace QLSV
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.Username_textBox = new System.Windows.Forms.TextBox();
             this.Password_textBox = new System.Windows.Forms.TextBox();
             this.Login_button = new System.Windows.Forms.Button();
@@ -115,6 +116,7 @@ namespace QLSV
             // 
             // Title_pictureBox
             // 
+            this.Title_pictureBox.Image = ((System.Drawing.Image)(resources.GetObject("Title_pictureBox.Image")));
             this.Title_pictureBox.Location = new System.Drawing.Point(65, 12);
             this.Title_pictureBox.Name = "Title_pictureBox";
             this.Title_pictureBox.Size = new System.Drawing.Size(100, 100);

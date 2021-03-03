@@ -14,5 +14,11 @@ namespace QLSV
         {
             InitializeComponent();
         }
+
+        private void addStudent_Clicked(object sender, EventArgs e)
+        {
+            AddStudentForm addStudentForm = new AddStudentForm();
+            addStudentForm.ShowDialog();
+        }
     }
 }

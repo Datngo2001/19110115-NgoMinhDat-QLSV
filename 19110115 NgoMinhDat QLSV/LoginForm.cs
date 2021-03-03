@@ -40,15 +40,7 @@ namespace QLSV
         }
         private void LoginForm_Load(object sender, EventArgs e)
         {
-            //try
-            //{
-            //    Title_pictureBox.Image = Image.FromFile("../images/person-icon.png");
-            //}
-            //catch (Exception)
-            //{
 
-            //    throw;
-            //}
         }
 
         private void Cancel_button_Click(object sender, EventArgs e)
